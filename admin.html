@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ज्ञानवार्ता CMS — न्यूज़रूम डैशबोर्ड</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.14.0/tabler-icons.min.css">
+<style>
+:root {
+  --navy: #1a2744; --navy-light: #243256; --navy-hover: #2d3f6e;
+  --accent: #3b82f6; --accent-light: #eff6ff; --accent-border: #bfdbfe;
+  --orange: #f97316; --orange-light: #fff7ed;
+  --success: #16a34a; --success-light: #f0fdf4; --success-border: #bbf7d0;
+  --warning: #d97706; --warning-light: #fffbeb; --warning-border: #fde68a;
+  --danger: #dc2626; --danger-light: #fef2f2; --danger-border: #fecaca;
+  --purple: #7c3aed; --purple-light: #f5f3ff;
+  --bg: #f8fafc; --surface: #ffffff; --border: #e2e8f0; --border-strong: #cbd5e1;
+  --text: #0f172a; --text-2: #334155; --text-3: #64748b; --text-4: #94a3b8;
+  --sidebar-w: 220px;
+  --font: 'Segoe UI', system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 14px; }
+a { text-decoration: none; color: inherit; }
+
+/* Layout */
+.layout { display: flex; height: 100vh; overflow: hidden; }
+.sidebar { width: var(--sidebar-w); background: var(--navy); display: flex; flex-direction: column; flex-shrink: 0; overflow-y: auto; }
+.main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+.topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 20px; height: 52px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.content-area { flex: 1; overflow-y: auto; padding: 20px; }
+
+/* Sidebar */
+.sb-logo { padding: 16px; border-bottom: 1px solid rgba(255,255,255,.08); margin-bottom: 8px; }
+.sb-logo-text { font-size: 17px; font-weight: 600; color: #fff; letter-spacing: -.3px; }
+.sb-logo-text span { color: var(--orange); }
+.sb-logo-sub { font-size: 10px; color: rgba(255,255,255,.4); margin-top: 2px; letter-spacing: .05em; text-transform: uppercase; }
+.sb-section { font-size: 10px; font-weight: 600; color: rgba(255,255,255,.3); letter-spacing: .08em; text-transform: uppercase; padding: 10px 16px 4px; }
+.sb-item { display: flex; align-items: center; gap: 9px; padding: 8px 16px; color: rgba(255,255,255,.65); cursor: pointer; border-radius: 0; transition: all .15s; font-size: 13px; }
+.sb-item:hover { background: rgba(255,255,255,.06); color: #fff; }
+.sb-item.active { background: rgba(59,130,246,.2); color: #93c5fd; border-right: 2px solid var(--accent); }
+.sb-badge { margin-left: auto; background: var(--danger); color: #fff; font-size: 10px; font-weight: 600; padding: 1px 6px; border-radius: 20px; }
+.sb-badge-warn { background: var(--warning); }
+.sb-badge-ok { background: var(--success); }
+.sb-user { margin-top: auto; border-top: 1px solid rgba(255,255,255,.08); padding: 12px 16px; display: flex; align-items: center; gap: 10px; }
+.sb-avatar { width: 30px; height: 30px; border-radius: 50%; background: rgba(59,130,246,.3); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; color: #93c5fd; flex-shrink: 0; }
+.sb-user-name { font-size: 12px; color: rgba(255,255,255,.8); font-weight: 500; }
+.sb-user-role { font-size: 10px; color: rgba(255,255,255,.4); }
+
+/* Topbar */
+.tb-title { font-size: 15px; font-weight: 600; color: var(--text); }
+.tb-right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.tb-btn { display: flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; }
+.tb-btn-primary { background: var(--accent); color: #fff; }
+.tb-btn-sec { background: var(--surface); color: var(--text-2); border: 1px solid var(--border); }
+.tb-btn-ai { background: var(--purple-light); color: var(--purple); border: 1px solid #ddd6fe; }
+.tb-icon { width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--text-3); border: 1px solid var(--border); background: var(--surface); }
+.tb-icon:hover { background: var(--bg); }
+.live-dot { display: flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 20px; background: var(--danger-light); border: 1px solid var(--danger-border); font-size: 12px; font-weight: 600; color: var(--danger); }
+.live-pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--danger); animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%,100%{opacity:1}50%{opacity:.4} }
+
+/* Panels */
+.panel-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+.panel-grid-2 { display: grid; grid-template-columns: 1fr 340px; gap: 14px; margin-bottom: 14px; }
+.panel-grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+.card-hd { padding: 13px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+.card-title { font-size: 12px; font-weight: 600; color: var(--text-2); display: flex; align-items: center; gap: 7px; }
+.card-link { font-size: 12px; color: var(--accent); cursor: pointer; }
+.card-body { padding: 14px 16px; }
+
+/* Metric Cards */
+.metric { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.metric-label { font-size: 11px; color: var(--text-3); font-weight: 500; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+.metric-val { font-size: 28px; font-weight: 700; color: var(--text); line-height: 1; margin-bottom: 6px; }
+.metric-sub { font-size: 12px; color: var(--text-3); display: flex; align-items: center; gap: 4px; }
+.metric-up { color: var(--success); }
+.metric-warn { color: var(--warning); }
+.metric-live { color: var(--danger); }
+
+/* Story rows */
+.story-row { padding: 11px 16px; border-bottom: 1px solid var(--border); display: flex; gap: 10px; }
+.story-row:last-child { border-bottom: none; }
+.status-dot { width: 9px; height: 9px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+.s-draft { background: var(--text-4); }
+.s-review { background: var(--warning); }
+.s-sensitive { background: var(--purple); }
+.s-approved { background: var(--success); }
+.s-live { background: var(--danger); }
+.story-info { flex: 1; min-width: 0; }
+.story-title { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.4; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.story-meta { font-size: 11px; color: var(--text-4); display: flex; gap: 10px; margin-bottom: 5px; }
+.story-actions { display: flex; gap: 5px; }
+.act { font-size: 11px; padding: 2px 9px; border-radius: 20px; border: 1px solid var(--border); background: var(--bg); color: var(--text-3); cursor: pointer; }
+.act:hover { background: var(--border); }
+.act-ok { border-color: var(--success-border); background: var(--success-light); color: var(--success); }
+.act-warn { border-color: var(--warning-border); background: var(--warning-light); color: var(--warning); }
+.act-danger { border-color: var(--danger-border); background: var(--danger-light); color: var(--danger); }
+
+/* Badges */
+.badge { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 500; }
+.b-blue { background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent-border); }
+.b-green { background: var(--success-light); color: var(--success); border: 1px solid var(--success-border); }
+.b-amber { background: var(--warning-light); color: var(--warning); border: 1px solid var(--warning-border); }
+.b-red { background: var(--danger-light); color: var(--danger); border: 1px solid var(--danger-border); }
+.b-purple { background: var(--purple-light); color: var(--purple); border: 1px solid #ddd6fe; }
+.b-gray { background: var(--bg); color: var(--text-3); border: 1px solid var(--border); }
+
+/* Queue items */
+.q-item { padding: 10px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; }
+.q-item:last-child { border-bottom: none; }
+.platform-icon { width: 28px; height: 28px; border-radius: 7px; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0; }
+.pi-yt { background: #fee2e2; color: #dc2626; }
+.pi-ig { background: #fce7f3; color: #9d174d; }
+.pi-x  { background: #f1f5f9; color: #0f172a; }
+.pi-fb { background: #eff6ff; color: #1d4ed8; }
+.pi-tg { background: #e0f2fe; color: #0284c7; }
+.pi-wa { background: #f0fdf4; color: #16a34a; }
+.pi-li { background: #eff6ff; color: #1e40af; }
+.pi-th { background: #f5f3ff; color: #6d28d9; }
+.q-info { flex: 1; min-width: 0; }
+.q-text { font-size: 12px; font-weight: 500; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
+.q-meta { font-size: 11px; color: var(--text-4); }
+
+/* Alert items */
+.alert-item { padding: 10px 14px; border-bottom: 1px solid var(--border); display: flex; gap: 10px; align-items: flex-start; }
+.alert-item:last-child { border-bottom: none; }
+.alert-icon { font-size: 16px; margin-top: 1px; }
+.alert-text { font-size: 12px; color: var(--text-2); line-height: 1.5; }
+.alert-time { font-size: 11px; color: var(--text-4); margin-top: 2px; }
+
+/* AI fact monitor */
+.fact-item { padding: 10px 14px; border-bottom: 1px solid var(--border); display: flex; gap: 8px; align-items: flex-start; }
+.fact-item:last-child { border-bottom: none; }
+.fact-label { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 4px; white-space: nowrap; margin-top: 2px; flex-shrink: 0; }
+.fl-fact { background: var(--success-light); color: var(--success); }
+.fl-claim { background: var(--warning-light); color: var(--warning); }
+.fl-unver { background: var(--danger-light); color: var(--danger); }
+.fl-analysis { background: var(--purple-light); color: var(--purple); }
+.fact-text { font-size: 12px; color: var(--text-2); line-height: 1.5; }
+
+/* Mini bar chart */
+.mini-bar { display: flex; align-items: flex-end; gap: 3px; height: 40px; }
+.bar-col { flex: 1; background: var(--accent-light); border-radius: 3px 3px 0 0; border: 1px solid var(--accent-border); position: relative; }
+.bar-col:hover { background: var(--accent); }
+
+/* Tabs */
+.tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
+.tab { padding: 8px 16px; font-size: 13px; color: var(--text-3); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }
+
+/* Page header */
+.page-hd { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+.page-title { font-size: 18px; font-weight: 700; color: var(--text); }
+.page-sub { font-size: 13px; color: var(--text-3); margin-top: 2px; }
+
+/* Section containers */
+.section-panel { display: none; }
+.section-panel.active { display: block; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 10px; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .panel-grid { grid-template-columns: 1fr 1fr; }
+  .panel-grid-2 { grid-template-columns: 1fr; }
+  .panel-grid-3 { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<!-- ═══ SIDEBAR ═══ -->
+<nav class="sidebar" aria-label="मुख्य नेविगेशन">
+  <div class="sb-logo">
+    <div class="sb-logo-text">ज्ञान<span>वार्ता</span></div>
+    <div class="sb-logo-sub">CMS v1.0 · GBSBFORYOU</div>
+  </div>
+
+  <div class="sb-section">मुख्य</div>
+  <div class="sb-item active" onclick="showSection('dashboard')">
+    <i class="ti ti-layout-dashboard" aria-hidden="true"></i> डैशबोर्ड
+  </div>
+  <div class="sb-item" onclick="showSection('articles')">
+    <i class="ti ti-news" aria-hidden="true"></i> लेख प्रबंधन
+    <span class="sb-badge">7</span>
+  </div>
+  <div class="sb-item" onclick="showSection('ai')">
+    <i class="ti ti-robot" aria-hidden="true"></i> AI न्यूज़रूम
+    <span class="sb-badge-warn sb-badge">नया</span>
+  </div>
+
+  <div class="sb-section">सत्यापन</div>
+  <div class="sb-item" onclick="showSection('factcheck')">
+    <i class="ti ti-check-circle" aria-hidden="true"></i> तथ्य-जाँच
+    <span class="sb-badge-warn sb-badge">3</span>
+  </div>
+  <div class="sb-item" onclick="showSection('sources')">
+    <i class="ti ti-database" aria-hidden="true"></i> स्रोत प्रबंधन
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-file" aria-hidden="true"></i> दस्तावेज़
+  </div>
+
+  <div class="sb-section">Social Media</div>
+  <div class="sb-item" onclick="showSection('social')">
+    <i class="ti ti-calendar" aria-hidden="true"></i> शेड्यूलर
+    <span class="sb-badge-ok sb-badge">14</span>
+  </div>
+  <div class="sb-item" onclick="showSection('social-gen')">
+    <i class="ti ti-wand" aria-hidden="true"></i> Social Generator
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-chart-bar" aria-hidden="true"></i> Social Analytics
+  </div>
+
+  <div class="sb-section">वीडियो</div>
+  <div class="sb-item">
+    <i class="ti ti-player-play" aria-hidden="true"></i> वीडियो
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-microphone" aria-hidden="true"></i> संवाद
+  </div>
+
+  <div class="sb-section">ज्ञान</div>
+  <div class="sb-item">
+    <i class="ti ti-user" aria-hidden="true"></i> व्यक्ति
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-building" aria-hidden="true"></i> संस्थाएं
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-book" aria-hidden="true"></i> शोध / पुस्तकें
+  </div>
+
+  <div class="sb-section">सिस्टम</div>
+  <div class="sb-item">
+    <i class="ti ti-users" aria-hidden="true"></i> उपयोगकर्ता
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-lock" aria-hidden="true"></i> Audit Log
+  </div>
+  <div class="sb-item">
+    <i class="ti ti-settings" aria-hidden="true"></i> सेटिंग्स
+  </div>
+
+  <div class="sb-user">
+    <div class="sb-avatar">अ</div>
+    <div>
+      <div class="sb-user-name">अजय सिंह चौहान</div>
+      <div class="sb-user-role">Chief Editor</div>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ MAIN ═══ -->
+<div class="main">
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <span class="tb-title" id="tb-title">न्यूज़रूम डैशबोर्ड</span>
+    <span style="font-size:12px;color:var(--text-3)" id="tb-time">लोड हो रहा है...</span>
+    <div class="tb-right">
+      <div class="live-dot"><div class="live-pulse"></div> LIVE · 1,842</div>
+      <button class="tb-btn tb-btn-ai" onclick="showSection('ai')">
+        <i class="ti ti-robot" aria-hidden="true"></i> AI Agent
+      </button>
+      <button class="tb-btn tb-btn-primary" onclick="showSection('articles')">
+        <i class="ti ti-plus" aria-hidden="true"></i> नया लेख
+      </button>
+      <div class="tb-icon" title="सूचनाएं" role="button" tabindex="0" aria-label="सूचनाएं">
+        <i class="ti ti-bell" aria-hidden="true"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="content-area">
+
+    <!-- ══ DASHBOARD ══ -->
+    <div class="section-panel active" id="s-dashboard">
+      <div class="page-hd">
+        <div>
+          <div class="page-title">न्यूज़रूम डैशबोर्ड</div>
+          <div class="page-sub">आज की स्थिति और प्राथमिकताएं</div>
+        </div>
+        <button class="tb-btn tb-btn-sec" onclick="window.open('https://gyanvarta.in','_blank')">
+          <i class="ti ti-external-link" aria-hidden="true"></i> Website देखें
+        </button>
+      </div>
+
+      <!-- Metrics -->
+      <div class="panel-grid">
+        <div class="metric">
+          <div class="metric-label"><i class="ti ti-eye" aria-hidden="true"></i> आज के पाठक</div>
+          <div class="metric-val" id="m-views">24,381</div>
+          <div class="metric-sub metric-up"><i class="ti ti-arrow-up" aria-hidden="true"></i> +18% कल से</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label"><i class="ti ti-clock" aria-hidden="true"></i> समीक्षा प्रतीक्षित</div>
+          <div class="metric-val" style="color:var(--warning)">7</div>
+          <div class="metric-sub metric-warn"><i class="ti ti-alert-triangle" aria-hidden="true"></i> 2 संवेदनशील</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label"><i class="ti ti-calendar" aria-hidden="true"></i> Social Queue</div>
+          <div class="metric-val">14</div>
+          <div class="metric-sub"><i class="ti ti-clock" aria-hidden="true"></i> अगला: 11:30 AM</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label"><i class="ti ti-player-play" aria-hidden="true"></i> LIVE दर्शक</div>
+          <div class="metric-val metric-live">1,842</div>
+          <div class="metric-sub metric-live"><i class="ti ti-circle" aria-hidden="true"></i> Live चल रहा है</div>
+        </div>
+      </div>
+
+      <div class="panel-grid-2">
+        <!-- Pending Articles -->
+        <div class="card">
+          <div class="card-hd">
+            <div class="card-title"><i class="ti ti-clock" aria-hidden="true"></i> समीक्षा प्रतीक्षित</div>
+            <span class="card-link" onclick="showSection('articles')">सभी देखें →</span>
+          </div>
+          <div class="story-row">
+            <div class="status-dot s-sensitive"></div>
+            <div class="story-info">
+              <div class="story-title">बाबरी मस्जिद फैसले के 5 साल: क्या बदला सांप्रदायिक ताना-बाना?</div>
+              <div class="story-meta"><span>रमेश वर्मा</span><span>AI Draft</span><span style="color:var(--purple)">⚠ संवेदनशील</span></div>
+              <div class="story-actions">
+                <div class="act act-ok" onclick="approveArticle(1)"><i class="ti ti-check" aria-hidden="true"></i> स्वीकृत</div>
+                <div class="act act-danger" onclick="rejectArticle(1)"><i class="ti ti-x" aria-hidden="true"></i> अस्वीकृत</div>
+                <div class="act"><i class="ti ti-eye" aria-hidden="true"></i> देखें</div>
+              </div>
+            </div>
+          </div>
+          <div class="story-row">
+            <div class="status-dot s-review"></div>
+            <div class="story-info">
+              <div class="story-title">चुनावी बॉन्ड: नई जानकारी और अनुत्तरित प्रश्न</div>
+              <div class="story-meta"><span>सुनीता शर्मा</span><span>Editor Review</span></div>
+              <div class="story-actions">
+                <div class="act act-ok"><i class="ti ti-check" aria-hidden="true"></i> स्वीकृत</div>
+                <div class="act"><i class="ti ti-edit" aria-hidden="true"></i> संपादन</div>
+              </div>
+            </div>
+          </div>
+          <div class="story-row">
+            <div class="status-dot s-review"></div>
+            <div class="story-info">
+              <div class="story-title">DNT समुदायों की ज़मीन पर अतिक्रमण: ग्राउंड रिपोर्ट</div>
+              <div class="story-meta"><span>मोहन लाल</span><span style="color:var(--warning)">Fact Check Pending</span></div>
+              <div class="story-actions">
+                <div class="act act-warn"><i class="ti ti-check" aria-hidden="true"></i> तथ्य-जाँच भेजें</div>
+                <div class="act"><i class="ti ti-eye" aria-hidden="true"></i> देखें</div>
+              </div>
+            </div>
+          </div>
+          <div class="story-row">
+            <div class="status-dot s-approved"></div>
+            <div class="story-info">
+              <div class="story-title">RBI नीति: विशेषज्ञों की राय और आम आदमी पर असर</div>
+              <div class="story-meta"><span>प्रिया दास</span><span style="color:var(--success)">✓ स्वीकृत</span></div>
+              <div class="story-actions">
+                <div class="act act-ok" onclick="publishArticle()">प्रकाशित करें</div>
+                <div class="act">शेड्यूल</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right column -->
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <!-- Social Queue -->
+          <div class="card">
+            <div class="card-hd">
+              <div class="card-title"><i class="ti ti-calendar" aria-hidden="true"></i> Social Queue — आज</div>
+              <span class="card-link" onclick="showSection('social')">Calendar →</span>
+            </div>
+            <div class="q-item">
+              <div class="platform-icon pi-x"><i class="ti ti-brand-x" aria-hidden="true"></i></div>
+              <div class="q-info">
+                <div class="q-text">चुनावी बॉन्ड — Thread (5 tweets)</div>
+                <div class="q-meta">11:30 AM</div>
+              </div>
+              <span class="badge b-blue">शेड्यूल्ड</span>
+            </div>
+            <div class="q-item">
+              <div class="platform-icon pi-ig"><i class="ti ti-brand-instagram" aria-hidden="true"></i></div>
+              <div class="q-info">
+                <div class="q-text">DNT रिपोर्ट — Reel Script</div>
+                <div class="q-meta">2:00 PM</div>
+              </div>
+              <span class="badge b-amber">समीक्षा</span>
+            </div>
+            <div class="q-item">
+              <div class="platform-icon pi-yt"><i class="ti ti-brand-youtube" aria-hidden="true"></i></div>
+              <div class="q-info">
+                <div class="q-text">Interview Full Video</div>
+                <div class="q-meta">4:30 PM</div>
+              </div>
+              <span class="badge b-blue">शेड्यूल्ड</span>
+            </div>
+            <div class="q-item">
+              <div class="platform-icon pi-tg"><i class="ti ti-brand-telegram" aria-hidden="true"></i></div>
+              <div class="q-info">
+                <div class="q-text">दैनिक सार — Channel Post</div>
+                <div class="q-meta">8:00 PM</div>
+              </div>
+              <span class="badge b-green">Live</span>
+            </div>
+          </div>
+
+          <!-- Alerts -->
+          <div class="card">
+            <div class="card-hd">
+              <div class="card-title"><i class="ti ti-bell" aria-hidden="true"></i> सिस्टम अलर्ट</div>
+            </div>
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--danger)"><i class="ti ti-alert-triangle" aria-hidden="true"></i></div>
+              <div>
+                <div class="alert-text">2 लेख 48 घंटे से समीक्षा में — तत्काल action चाहिए</div>
+                <div class="alert-time">अभी</div>
+              </div>
+            </div>
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--warning)"><i class="ti ti-clock" aria-hidden="true"></i></div>
+              <div>
+                <div class="alert-text">Instagram token 3 दिन में expire — renew करें</div>
+                <div class="alert-time">2 घंटे पहले</div>
+              </div>
+            </div>
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--success)"><i class="ti ti-check" aria-hidden="true"></i></div>
+              <div>
+                <div class="alert-text">Daily backup सफल — 05 Sep 03:00 AM</div>
+                <div class="alert-time">7 घंटे पहले</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-grid-3">
+        <!-- AI Fact Monitor -->
+        <div class="card">
+          <div class="card-hd">
+            <div class="card-title"><i class="ti ti-robot" aria-hidden="true"></i> AI Fact Monitor</div>
+            <span class="card-link" onclick="showSection('factcheck')">सभी →</span>
+          </div>
+          <div class="fact-item">
+            <div class="fact-label fl-claim">दावा</div>
+            <div class="fact-text">"सरकार ने 10 करोड़ नौकरी दी" — नेता का भाषण — जाँच जारी</div>
+          </div>
+          <div class="fact-item">
+            <div class="fact-label fl-fact">तथ्य</div>
+            <div class="fact-text">GDP 7.2% — NSO आधिकारिक रिपोर्ट Q3 2025 — सत्यापित</div>
+          </div>
+          <div class="fact-item">
+            <div class="fact-label fl-unver">अपुष्ट</div>
+            <div class="fact-text">वायरल वीडियो: "मंत्री का बयान" — जाँच आवश्यक</div>
+          </div>
+          <div class="fact-item">
+            <div class="fact-label fl-analysis">विश्लेषण</div>
+            <div class="fact-text">बजट 2024 और रोज़गार डेटा: संदर्भ जटिल है</div>
+          </div>
+        </div>
+
+        <!-- Top Articles -->
+        <div class="card">
+          <div class="card-hd">
+            <div class="card-title"><i class="ti ti-chart-bar" aria-hidden="true"></i> आज के टॉप लेख</div>
+          </div>
+          <div style="padding:8px 0">
+            <div style="padding:8px 16px;border-bottom:1px solid var(--border)">
+              <div style="font-size:12px;font-weight:500;margin-bottom:2px">1. धारा 370 विश्लेषण</div>
+              <div style="font-size:11px;color:var(--text-4)">8,421 पाठक · 14 मिनट औसत</div>
+            </div>
+            <div style="padding:8px 16px;border-bottom:1px solid var(--border)">
+              <div style="font-size:12px;font-weight:500;margin-bottom:2px">2. RBI नीति विश्लेषण</div>
+              <div style="font-size:11px;color:var(--text-4)">5,230 पाठक · 11 मिनट औसत</div>
+            </div>
+            <div style="padding:8px 16px;border-bottom:1px solid var(--border)">
+              <div style="font-size:12px;font-weight:500;margin-bottom:2px">3. चुनावी बॉन्ड तथ्य-जाँच</div>
+              <div style="font-size:11px;color:var(--text-4)">4,108 पाठक · 18 मिनट औसत</div>
+            </div>
+            <div style="padding:8px 16px">
+              <div style="font-size:12px;font-weight:500;margin-bottom:2px">4. DNT Ground Report</div>
+              <div style="font-size:11px;color:var(--text-4)">3,745 पाठक · 22 मिनट औसत</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="card">
+          <div class="card-hd">
+            <div class="card-title"><i class="ti ti-activity" aria-hidden="true"></i> हालिया गतिविधि</div>
+          </div>
+          <div style="padding:4px 0">
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--success)"><i class="ti ti-check" aria-hidden="true"></i></div>
+              <div><div class="alert-text">RBI लेख प्रकाशित — प्रिया दास</div><div class="alert-time">15 मिनट पहले</div></div>
+            </div>
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--accent)"><i class="ti ti-pencil" aria-hidden="true"></i></div>
+              <div><div class="alert-text">Source added: NSO Q3 Report — रमेश</div><div class="alert-time">32 मिनट पहले</div></div>
+            </div>
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--warning)"><i class="ti ti-clock" aria-hidden="true"></i></div>
+              <div><div class="alert-text">Social post scheduled: X Thread — 11:30 AM</div><div class="alert-time">1 घंटे पहले</div></div>
+            </div>
+            <div class="alert-item">
+              <div class="alert-icon" style="color:var(--purple)"><i class="ti ti-robot" aria-hidden="true"></i></div>
+              <div><div class="alert-text">AI Draft generated: DNT Article</div><div class="alert-time">2 घंटे पहले</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ AI NEWSROOM ══ -->
+    <div class="section-panel" id="s-ai">
+      <div class="page-hd">
+        <div>
+          <div class="page-title">AI न्यूज़रूम</div>
+          <div class="page-sub">17 AI Agents — Research से Publication तक</div>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active" onclick="switchAiTab(this,'ai-research')">Research Agent</div>
+        <div class="tab" onclick="switchAiTab(this,'ai-draft')">Article Draft</div>
+        <div class="tab" onclick="switchAiTab(this,'ai-factcheck')">Fact Check</div>
+        <div class="tab" onclick="switchAiTab(this,'ai-social')">Social Generator</div>
+        <div class="tab" onclick="switchAiTab(this,'ai-seo')">SEO Agent</div>
+      </div>
+
+      <div id="ai-research" class="ai-tab">
+        <div class="card" style="max-width:700px">
+          <div class="card-hd"><div class="card-title"><i class="ti ti-search" aria-hidden="true"></i> Research Agent</div></div>
+          <div class="card-body">
+            <div style="margin-bottom:12px">
+              <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">विषय / Topic</label>
+              <input type="text" id="research-topic" placeholder="उदा: चुनावी बॉन्ड योजना का इतिहास और विवाद" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px;outline:none;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+            </div>
+            <button class="tb-btn tb-btn-ai" style="width:100%;justify-content:center;padding:10px;" onclick="runResearch()">
+              <i class="ti ti-robot" aria-hidden="true"></i> Research शुरू करें
+            </button>
+            <div id="research-output" style="display:none;margin-top:16px;padding:14px;background:var(--bg);border-radius:8px;border:1px solid var(--border)">
+              <div style="font-size:12px;font-weight:600;color:var(--text-2);margin-bottom:8px">Research Output</div>
+              <div id="research-content" style="font-size:13px;color:var(--text-2);line-height:1.7"></div>
+              <button class="tb-btn tb-btn-primary" style="margin-top:12px" onclick="switchAiTab(document.querySelector('.tab:nth-child(2)'),'ai-draft')">
+                <i class="ti ti-arrow-right" aria-hidden="true"></i> Draft Agent →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ai-draft" class="ai-tab" style="display:none">
+        <div class="card" style="max-width:700px">
+          <div class="card-hd"><div class="card-title"><i class="ti ti-pencil" aria-hidden="true"></i> Article Draft Agent</div></div>
+          <div class="card-body">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
+              <div>
+                <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">Topic</label>
+                <input type="text" placeholder="लेख का मुख्य विषय" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;outline:none;">
+              </div>
+              <div>
+                <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">Type</label>
+                <select style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;outline:none;background:white">
+                  <option>article</option><option>analysis</option><option>ground_report</option>
+                  <option>interview</option><option>fact_check</option><option>explainer</option>
+                </select>
+              </div>
+            </div>
+            <button class="tb-btn tb-btn-ai" style="width:100%;justify-content:center;padding:10px;" onclick="runDraft()">
+              <i class="ti ti-robot" aria-hidden="true"></i> Draft Generate करें
+            </button>
+            <div id="draft-output" style="display:none;margin-top:16px;padding:14px;background:var(--danger-light);border:1px solid var(--danger-border);border-radius:8px">
+              <div style="font-size:12px;font-weight:600;color:var(--danger)">⚠ AI Draft — Human Review आवश्यक है</div>
+              <div style="font-size:12px;color:var(--text-3);margin-top:4px">यह draft CMS में save होगा। प्रकाशन से पहले Editor review और Source verification अनिवार्य है।</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ai-factcheck" class="ai-tab" style="display:none">
+        <div class="card" style="max-width:700px">
+          <div class="card-hd"><div class="card-title"><i class="ti ti-check-circle" aria-hidden="true"></i> Fact Check Agent</div></div>
+          <div class="card-body">
+            <div style="margin-bottom:12px">
+              <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">दावा (Claim)</label>
+              <textarea placeholder="जो दावा जाँचना है वह यहाँ लिखें..." rows="3" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;resize:vertical;outline:none;font-family:inherit"></textarea>
+            </div>
+            <div style="margin-bottom:12px">
+              <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">दावा किसने किया?</label>
+              <input type="text" placeholder="व्यक्ति / संस्था का नाम" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;outline:none;">
+            </div>
+            <button class="tb-btn tb-btn-ai" style="width:100%;justify-content:center;padding:10px;" onclick="runFactCheck()">
+              <i class="ti ti-check" aria-hidden="true"></i> Fact Check करें
+            </button>
+            <div id="fc-output" style="display:none;margin-top:16px">
+              <div style="display:flex;gap:8px;flex-wrap:wrap">
+                <span class="badge b-amber">⚠ दावा (Claim) — AI Assessment</span>
+                <span style="font-size:12px;color:var(--text-3)">Confidence: 72%</span>
+              </div>
+              <div style="margin-top:10px;font-size:13px;color:var(--text-2);line-height:1.7;padding:12px;background:var(--bg);border-radius:8px;border:1px solid var(--border)">
+                <strong>AI Assessment:</strong> यह दावा एक राजनीतिक नेता के भाषण से है। स्वतंत्र सत्यापन के लिए NSO, MOSPI और PLFS डेटा देखें। वर्तमान में यह CLAIM के रूप में वर्गीकृत।
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ai-social" class="ai-tab" style="display:none">
+        <div style="font-size:13px;color:var(--text-3);margin-bottom:12px">Article publish होने के बाद Social Content automatically generate होगा।</div>
+        <div class="card" style="max-width:700px">
+          <div class="card-hd"><div class="card-title"><i class="ti ti-wand" aria-hidden="true"></i> Social Media Generator</div></div>
+          <div class="card-body">
+            <div style="margin-bottom:12px">
+              <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">Article Title</label>
+              <input type="text" id="soc-title" placeholder="Article का शीर्षक" style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;outline:none;">
+            </div>
+            <div style="margin-bottom:12px">
+              <label style="font-size:12px;font-weight:500;color:var(--text-2);display:block;margin-bottom:6px">Summary</label>
+              <textarea id="soc-summary" rows="3" placeholder="लेख का सारांश..." style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;resize:vertical;outline:none;font-family:inherit"></textarea>
+            </div>
+            <button class="tb-btn tb-btn-ai" style="width:100%;justify-content:center;padding:10px;" onclick="runSocialGen()">
+              <i class="ti ti-wand" aria-hidden="true"></i> 8 Platform Posts Generate करें
+            </button>
+            <div id="social-output" style="display:none;margin-top:16px">
+              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+                <span class="badge b-green">✓ Generated</span>
+                <span style="font-size:12px;color:var(--text-3)">Social Editor review के बाद publish होगा</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px" id="social-posts"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ai-seo" class="ai-tab" style="display:none">
+        <div class="card" style="max-width:700px">
+          <div class="card-hd"><div class="card-title"><i class="ti ti-search" aria-hidden="true"></i> SEO Agent</div></div>
+          <div class="card-body">
+            <p style="font-size:13px;color:var(--text-3)">Article draft generate होने के बाद SEO Agent automatically metadata, schema markup, और keywords generate करेगा।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ ARTICLES ══ -->
+    <div class="section-panel" id="s-articles">
+      <div class="page-hd">
+        <div>
+          <div class="page-title">लेख प्रबंधन</div>
+          <div class="page-sub">सभी articles, drafts और published content</div>
+        </div>
+        <div style="display:flex;gap:8px">
+          <button class="tb-btn tb-btn-ai" onclick="showSection('ai')"><i class="ti ti-robot" aria-hidden="true"></i> AI Draft</button>
+          <button class="tb-btn tb-btn-primary"><i class="ti ti-plus" aria-hidden="true"></i> नया लेख</button>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active">सभी (47)</div>
+        <div class="tab">समीक्षा प्रतीक्षित (7)</div>
+        <div class="tab">संवेदनशील (2)</div>
+        <div class="tab">प्रकाशित (38)</div>
+        <div class="tab">AI Draft (5)</div>
+      </div>
+
+      <div class="card">
+        <div style="padding:12px 16px;border-bottom:1px solid var(--border);display:flex;gap:10px">
+          <input placeholder="शीर्षक, लेखक, श्रेणी खोजें..." style="flex:1;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;outline:none;">
+          <select style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:white;outline:none">
+            <option>सभी श्रेणियां</option><option>राजनीति</option><option>अर्थव्यवस्था</option><option>समाज</option>
+          </select>
+          <select style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:white;outline:none">
+            <option>सभी type</option><option>विश्लेषण</option><option>तथ्य-जाँच</option><option>संवाद</option>
+          </select>
+        </div>
+
+        <div style="overflow-x:auto">
+          <table style="width:100%;border-collapse:collapse;font-size:13px">
+            <thead>
+              <tr style="border-bottom:1px solid var(--border)">
+                <th style="padding:10px 16px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px;text-transform:uppercase">शीर्षक</th>
+                <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px;text-transform:uppercase">लेखक</th>
+                <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px;text-transform:uppercase">स्थिति</th>
+                <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px;text-transform:uppercase">श्रेणी</th>
+                <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px;text-transform:uppercase">दृश्य</th>
+                <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px;text-transform:uppercase">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:12px 16px;max-width:300px"><div style="font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">धारा 370: पाँच साल बाद — क्या बदला?</div><div style="font-size:11px;color:var(--text-4);margin-top:2px">14 मिनट पठन · AI-सहायता</div></td>
+                <td style="padding:12px 10px;color:var(--text-3)">अजय सिंह</td>
+                <td style="padding:12px 10px"><span class="badge b-green">✓ प्रकाशित</span></td>
+                <td style="padding:12px 10px;color:var(--text-3)">राजनीति</td>
+                <td style="padding:12px 10px;color:var(--text-2);font-weight:500">8,421</td>
+                <td style="padding:12px 10px">
+                  <div style="display:flex;gap:5px">
+                    <div class="act"><i class="ti ti-eye" aria-hidden="true"></i></div>
+                    <div class="act"><i class="ti ti-edit" aria-hidden="true"></i></div>
+                    <div class="act act-warn"><i class="ti ti-wand" aria-hidden="true"></i> Social</div>
+                  </div>
+                </td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:12px 16px;max-width:300px"><div style="font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">बाबरी मस्जिद: सांप्रदायिक ताना-बाना</div><div style="font-size:11px;color:var(--text-4);margin-top:2px">18 मिनट पठन · AI Draft</div></td>
+                <td style="padding:12px 10px;color:var(--text-3)">रमेश वर्मा</td>
+                <td style="padding:12px 10px"><span class="badge b-purple">संवेदनशील समीक्षा</span></td>
+                <td style="padding:12px 10px;color:var(--text-3)">समाज</td>
+                <td style="padding:12px 10px;color:var(--text-4)">—</td>
+                <td style="padding:12px 10px">
+                  <div style="display:flex;gap:5px">
+                    <div class="act act-ok"><i class="ti ti-check" aria-hidden="true"></i> Approve</div>
+                    <div class="act act-danger"><i class="ti ti-x" aria-hidden="true"></i></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:12px 16px;max-width:300px"><div style="font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">DNT समुदायों की ज़मीन — Ground Report</div><div style="font-size:11px;color:var(--text-4);margin-top:2px">22 मिनट पठन</div></td>
+                <td style="padding:12px 10px;color:var(--text-3)">मोहन लाल</td>
+                <td style="padding:12px 10px"><span class="badge b-amber">तथ्य-जाँच प्रतीक्षित</span></td>
+                <td style="padding:12px 10px;color:var(--text-3)">समाज</td>
+                <td style="padding:12px 10px;color:var(--text-4)">—</td>
+                <td style="padding:12px 10px">
+                  <div style="display:flex;gap:5px">
+                    <div class="act act-warn">Fact Check</div>
+                    <div class="act"><i class="ti ti-eye" aria-hidden="true"></i></div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ SOCIAL ══ -->
+    <div class="section-panel" id="s-social">
+      <div class="page-hd">
+        <div><div class="page-title">Social Media शेड्यूलर</div><div class="page-sub">केंद्रीय calendar — 8 platforms</div></div>
+        <button class="tb-btn tb-btn-primary"><i class="ti ti-plus" aria-hidden="true"></i> नया Post</button>
+      </div>
+
+      <!-- Platform Status -->
+      <div style="display:grid;grid-template-columns:repeat(8,1fr);gap:8px;margin-bottom:16px">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#dc2626;margin-bottom:4px"><i class="ti ti-brand-youtube" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">YouTube</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#1d4ed8;margin-bottom:4px"><i class="ti ti-brand-facebook" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">Facebook</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#9d174d;margin-bottom:4px"><i class="ti ti-brand-instagram" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">Instagram</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--warning);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#0f172a;margin-bottom:4px"><i class="ti ti-brand-x" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">X/Twitter</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#6d28d9;margin-bottom:4px"><i class="ti ti-brand-threads" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">Threads</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#0284c7;margin-bottom:4px"><i class="ti ti-brand-telegram" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">Telegram</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#16a34a;margin-bottom:4px"><i class="ti ti-brand-whatsapp" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">WhatsApp</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px;text-align:center">
+          <div style="font-size:18px;color:#1e40af;margin-bottom:4px"><i class="ti ti-brand-linkedin" aria-hidden="true"></i></div>
+          <div style="font-size:10px;color:var(--text-3)">LinkedIn</div>
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--success);margin:4px auto 0"></div>
+        </div>
+      </div>
+
+      <!-- Today's Queue -->
+      <div class="card">
+        <div class="card-hd"><div class="card-title"><i class="ti ti-list" aria-hidden="true"></i> आज की Queue</div></div>
+        <div style="overflow-x:auto">
+          <table style="width:100%;border-collapse:collapse;font-size:13px">
+            <thead><tr style="border-bottom:1px solid var(--border)">
+              <th style="padding:10px 16px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px">Platform</th>
+              <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px">Content</th>
+              <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px">समय</th>
+              <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px">स्थिति</th>
+              <th style="padding:10px;text-align:left;color:var(--text-3);font-weight:500;font-size:11px">Action</th>
+            </tr></thead>
+            <tbody id="social-queue-table">
+              <tr style="border-bottom:1px solid var(--border)"><td style="padding:10px 16px"><div class="platform-icon pi-x" style="width:24px;height:24px"><i class="ti ti-brand-x" aria-hidden="true"></i></div></td><td style="padding:10px;max-width:250px"><div style="font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">चुनावी बॉन्ड — Thread (5 tweets)</div></td><td style="padding:10px;color:var(--text-3)">11:30 AM</td><td style="padding:10px"><span class="badge b-blue">शेड्यूल्ड</span></td><td style="padding:10px"><div style="display:flex;gap:4px"><div class="act"><i class="ti ti-eye" aria-hidden="true"></i></div><div class="act act-danger">Cancel</div></div></td></tr>
+              <tr style="border-bottom:1px solid var(--border)"><td style="padding:10px 16px"><div class="platform-icon pi-ig" style="width:24px;height:24px"><i class="ti ti-brand-instagram" aria-hidden="true"></i></div></td><td style="padding:10px;max-width:250px"><div style="font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">DNT रिपोर्ट — Reel Script</div></td><td style="padding:10px;color:var(--text-3)">2:00 PM</td><td style="padding:10px"><span class="badge b-amber">समीक्षा आवश्यक</span></td><td style="padding:10px"><div style="display:flex;gap:4px"><div class="act act-ok">Approve</div><div class="act"><i class="ti ti-edit" aria-hidden="true"></i></div></div></td></tr>
+              <tr><td style="padding:10px 16px"><div class="platform-icon pi-yt" style="width:24px;height:24px"><i class="ti ti-brand-youtube" aria-hidden="true"></i></div></td><td style="padding:10px;max-width:250px"><div style="font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Interview Full Video Upload</div></td><td style="padding:10px;color:var(--text-3)">4:30 PM</td><td style="padding:10px"><span class="badge b-blue">शेड्यूल्ड</span></td><td style="padding:10px"><div style="display:flex;gap:4px"><div class="act"><i class="ti ti-eye" aria-hidden="true"></i></div></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ FACTCHECK ══ -->
+    <div class="section-panel" id="s-factcheck">
+      <div class="page-hd">
+        <div><div class="page-title">तथ्य-जाँच</div><div class="page-sub">Claims verification और FACT/CLAIM classification</div></div>
+        <button class="tb-btn tb-btn-ai" onclick="showSection('ai');switchAiTab(null,'ai-factcheck')"><i class="ti ti-robot" aria-hidden="true"></i> AI Fact Check</button>
+      </div>
+      <div class="card">
+        <div class="card-hd"><div class="card-title"><i class="ti ti-list" aria-hidden="true"></i> Pending Claims</div></div>
+        <div class="fact-item" style="padding:14px 16px">
+          <div class="fact-label fl-claim" style="font-size:11px">दावा</div>
+          <div style="flex:1">
+            <div class="fact-text" style="margin-bottom:6px">"देश में 10 करोड़ नई नौकरियाँ दी गईं" — नेता का भाषण, 2 सितंबर 2026</div>
+            <div style="display:flex;gap:6px">
+              <div class="act act-ok">✓ Verified — FACT</div>
+              <div class="act act-warn">⚠ Partial</div>
+              <div class="act act-danger">✗ False</div>
+              <div class="act">AI Check</div>
+            </div>
+          </div>
+        </div>
+        <div class="fact-item" style="padding:14px 16px">
+          <div class="fact-label fl-unver" style="font-size:11px">अपुष्ट</div>
+          <div style="flex:1">
+            <div class="fact-text" style="margin-bottom:6px">वायरल वीडियो: "सरकारी दस्तावेज़" दिखाता है कि बजट कट हुआ — Source अज्ञात</div>
+            <div style="display:flex;gap:6px">
+              <div class="act act-ok">✓ Verified</div>
+              <div class="act act-danger">✗ False</div>
+              <div class="act">Source खोजें</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ SOURCES ══ -->
+    <div class="section-panel" id="s-sources">
+      <div class="page-hd">
+        <div><div class="page-title">स्रोत प्रबंधन</div><div class="page-sub">Central Source Database</div></div>
+        <button class="tb-btn tb-btn-primary"><i class="ti ti-plus" aria-hidden="true"></i> नया स्रोत</button>
+      </div>
+      <div class="card">
+        <div style="padding:12px 16px;border-bottom:1px solid var(--border)">
+          <input placeholder="स्रोत, संस्था, URL खोजें..." style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;outline:none;">
+        </div>
+        <div style="padding:14px 16px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center">
+          <div class="platform-icon" style="background:var(--accent-light);color:var(--accent);width:32px;height:32px"><i class="ti ti-building-government" aria-hidden="true"></i></div>
+          <div style="flex:1"><div style="font-size:13px;font-weight:500">NSO Q3 2025 GDP Report</div><div style="font-size:11px;color:var(--text-4)">Government · mospi.gov.in · Sep 2025</div></div>
+          <span class="badge b-green">उच्च विश्वसनीयता</span>
+        </div>
+        <div style="padding:14px 16px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center">
+          <div class="platform-icon" style="background:#fce7f3;color:#9d174d;width:32px;height:32px"><i class="ti ti-gavel" aria-hidden="true"></i></div>
+          <div style="flex:1"><div style="font-size:13px;font-weight:500">Supreme Court Order — Electoral Bonds</div><div style="font-size:11px;color:var(--text-4)">Court · sci.gov.in · Feb 2024</div></div>
+          <span class="badge b-green">उच्च विश्वसनीयता</span>
+        </div>
+        <div style="padding:14px 16px;display:flex;gap:10px;align-items:center">
+          <div class="platform-icon" style="background:var(--bg);color:var(--text-3);width:32px;height:32px"><i class="ti ti-brand-x" aria-hidden="true"></i></div>
+          <div style="flex:1"><div style="font-size:13px;font-weight:500">नेता का Twitter/X Statement</div><div style="font-size:11px;color:var(--text-4)">Social Media · x.com · 2 Sep 2026</div></div>
+          <span class="badge b-amber">मध्यम विश्वसनीयता</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Generator section -->
+    <div class="section-panel" id="s-social-gen">
+      <div class="page-hd">
+        <div><div class="page-title">Social Media Generator</div></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script>
+// Clock
+function updateClock() {
+  const el = document.getElementById('tb-time');
+  if (el) {
+    const now = new Date();
+    el.textContent = now.toLocaleDateString('hi-IN',{weekday:'short',year:'numeric',month:'short',day:'numeric'}) + ' · ' + now.toLocaleTimeString('hi-IN',{hour:'2-digit',minute:'2-digit'});
+  }
+}
+updateClock(); setInterval(updateClock, 30000);
+
+// Section navigation
+const sections = { dashboard:'s-dashboard', articles:'s-articles', ai:'s-ai', social:'s-social', 'social-gen':'s-social-gen', factcheck:'s-factcheck', sources:'s-sources' };
+const titles = { dashboard:'न्यूज़रूम डैशबोर्ड', articles:'लेख प्रबंधन', ai:'AI न्यूज़रूम', social:'Social Media शेड्यूलर', factcheck:'तथ्य-जाँच', sources:'स्रोत प्रबंधन' };
+
+function showSection(name) {
+  document.querySelectorAll('.section-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.sb-item').forEach(i => i.classList.remove('active'));
+  const panel = document.getElementById(sections[name] || 's-dashboard');
+  if (panel) panel.classList.add('active');
+  const titleEl = document.getElementById('tb-title');
+  if (titleEl) titleEl.textContent = titles[name] || 'डैशबोर्ड';
+}
+
+// AI Tab switcher
+function switchAiTab(el, tabId) {
+  document.querySelectorAll('.ai-tab').forEach(t => t.style.display='none');
+  const target = document.getElementById(tabId);
+  if (target) target.style.display='block';
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  if (el) el.classList.add('active');
+}
+
+// Mock interactions
+function approveArticle(id) {
+  if(confirm('क्या आप इस article को approve करना चाहते हैं?')) {
+    alert('✓ Article approved! Publication के लिए तैयार।');
+  }
+}
+function rejectArticle(id) {
+  const reason = prompt('अस्वीकृति का कारण:');
+  if(reason) alert('Article वापस भेजा गया: ' + reason);
+}
+function publishArticle() {
+  if(confirm('क्या आप अभी publish करना चाहते हैं?')) {
+    alert('✅ Article published! Website पर live है।');
+  }
+}
+
+function runResearch() {
+  const topic = document.getElementById('research-topic').value;
+  if (!topic.trim()) { alert('कृपया topic लिखें'); return; }
+  const btn = event.target;
+  btn.textContent = '⏳ Research जारी है...';
+  btn.disabled = true;
+  setTimeout(() => {
+    document.getElementById('research-output').style.display = 'block';
+    document.getElementById('research-content').innerHTML = `
+      <strong>विषय:</strong> ${topic}<br><br>
+      <strong>मुख्य तथ्य:</strong><br>
+      • यह एक जटिल विषय है जिसमें कई पक्ष और संदर्भ हैं<br>
+      • ऐतिहासिक पृष्ठभूमि और वर्तमान स्थिति अलग-अलग है<br>
+      • आधिकारिक दस्तावेज़ और विशेषज्ञ मत उपलब्ध हैं<br><br>
+      <strong>अनुशंसित स्रोत:</strong> सरकारी दस्तावेज़, न्यायालय आदेश, संसदीय रिकॉर्ड<br><br>
+      <em style="color:var(--text-4)">⚠ AI Research — Human verification आवश्यक है</em>
+    `;
+    btn.innerHTML = '<i class="ti ti-robot"></i> Research शुरू करें';
+    btn.disabled = false;
+  }, 2000);
+}
+
+function runDraft() {
+  const btn = event.target;
+  btn.textContent = '⏳ Draft बन रहा है...';
+  btn.disabled = true;
+  setTimeout(() => {
+    document.getElementById('draft-output').style.display = 'block';
+    btn.innerHTML = '<i class="ti ti-robot"></i> Draft Generate करें';
+    btn.disabled = false;
+  }, 2500);
+}
+
+function runFactCheck() {
+  const btn = event.target;
+  btn.textContent = '⏳ जाँच हो रही है...';
+  btn.disabled = true;
+  setTimeout(() => {
+    document.getElementById('fc-output').style.display = 'block';
+    btn.innerHTML = '<i class="ti ti-check"></i> Fact Check करें';
+    btn.disabled = false;
+  }, 2000);
+}
+
+function runSocialGen() {
+  const title = document.getElementById('soc-title').value;
+  const summary = document.getElementById('soc-summary').value;
+  if (!title.trim()) { alert('कृपया Article Title लिखें'); return; }
+  const btn = event.target;
+  btn.textContent = '⏳ Generating...';
+  btn.disabled = true;
+  setTimeout(() => {
+    document.getElementById('social-output').style.display = 'block';
+    const platforms = [
+      { name:'X/Twitter', icon:'ti-brand-x', post: title + ' — गहन विश्लेषण पढ़ें 🔗 gyanvarta.in' },
+      { name:'Instagram', icon:'ti-brand-instagram', post: '📖 ' + title + '\n\n' + summary.slice(0,100) + '...\n\n#हिंदीसमाचार #विश्लेषण' },
+      { name:'Facebook', icon:'ti-brand-facebook', post: title + '\n\n' + summary },
+      { name:'Telegram', icon:'ti-brand-telegram', post: '📰 ' + title + '\n\n' + summary + '\n\n🔗 gyanvarta.in' },
+    ];
+    document.getElementById('social-posts').innerHTML = platforms.map(p => `
+      <div style="padding:12px;background:var(--bg);border:1px solid var(--border);border-radius:8px">
+        <div style="font-size:11px;font-weight:600;color:var(--text-3);margin-bottom:6px;display:flex;align-items:center;gap:5px">
+          <i class="ti ${p.icon}"></i> ${p.name}
+        </div>
+        <div style="font-size:12px;color:var(--text-2);line-height:1.6;margin-bottom:8px">${p.post}</div>
+        <div style="display:flex;gap:5px">
+          <div class="act act-ok" style="font-size:10px">Approve</div>
+          <div class="act" style="font-size:10px">Edit</div>
+        </div>
+      </div>
+    `).join('');
+    btn.innerHTML = '<i class="ti ti-wand"></i> 8 Platform Posts Generate करें';
+    btn.disabled = false;
+  }, 2500);
+}
+</script>
+</body>
+</html>
