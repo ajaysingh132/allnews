@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Custom properties ──────────────────────────────────── */
+:root {
+  --navy: #1a2744;
+  --accent: #2563eb;
+  --orange: #f97316;
+  --border: #e2e8f0;
+  --surface: #ffffff;
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --text-2: #334155;
+  --text-3: #64748b;
+}
+
+/* ── Base ────────────────────────────────────────────────── */
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans), "Noto Sans Devanagari", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Hindi article body typography ──────────────────────── */
+.prose-hindi {
+  font-family: var(--font-serif), "Noto Serif Devanagari", Georgia, serif;
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: #1e293b;
+}
+.prose-hindi p { margin-bottom: 1.4em; }
+.prose-hindi h2 {
+  font-family: var(--font-sans), "Noto Sans Devanagari", system-ui;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 2em 0 0.75em;
+  color: var(--navy);
+}
+.prose-hindi h3 {
+  font-family: var(--font-sans), "Noto Sans Devanagari", system-ui;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1.5em 0 0.5em;
+}
+.prose-hindi blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.2em;
+  color: #475569;
+  font-style: normal;
+  margin: 1.5em 0;
+}
+.prose-hindi mark {
+  background: #fef9c3;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ── Ticker animation ────────────────────────────────────── */
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-inner {
+  display: flex;
+  gap: 2rem;
+  animation: ticker 35s linear infinite;
+  white-space: nowrap;
+}
+.ticker-inner:hover { animation-play-state: paused; }
+
+/* ── Card hover lift ─────────────────────────────────────── */
+.card-lift {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.card-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* ── Scrollbar ───────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+/* ── Utility ─────────────────────────────────────────────── */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
