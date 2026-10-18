@@ -1,7 +1,929 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-10-18T18:37:22.255Z",
   "mode": "free RSS metadata and short descriptions only; no automatic publication",
-  "items": [],
-  "sourceResults": [],
-  "editorialNotice": "प्रारंभिक फ़ीड फ़ाइल। GitHub Actions का पहला सफल रन होने पर इसे अपडेट किया जाएगा।"
+  "items": [
+    {
+      "title": "Saudi Arabia sends skyscraper employees home amid Houthi threats",
+      "summary": "Riyadh's Kingdom Center tower's management told the people employed there to work from home \"until further notice,\" without giving a reason. This comes as Houthi attacks escalate.",
+      "url": "https://www.dw.com/en/saudi-arabia-sends-skyscraper-employees-home-amid-houthi-threats/a-79693225?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T16:34:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Meloni backs police after cost-of-living protests turn violent in Italian cities",
+      "summary": "Anger over living costs and low wages has brought Italians onto the streets. A major union has called a general strike for November 20.",
+      "url": "https://www.dw.com/en/meloni-backs-police-after-cost-of-living-protests-turn-violent-in-italian-cities/a-79692755?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T16:02:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+      "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 15:46:10 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Ukraine apologizes after a suspected drone crashes in Lithuania, damaging a moving car.",
+      "summary": "Debris has damaged a moving car in Lithuania, where NATO jets were scrambled. Kyiv says Russian jamming may have diverted drones targeting Russia.",
+      "url": "https://www.dw.com/en/ukraine-apologizes-after-a-suspected-drone-crashes-in-lithuania-damaging-a-moving-car/a-79692905?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T14:20:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Pope appears in public for first time since surgery",
+      "summary": "After undergoing a lung operation, the pope said he will resume his duties gradually. There is no \"clinical reason\" for his South America trip not to go ahead, his surgeon said.",
+      "url": "https://www.dw.com/en/pope-appears-in-public-for-first-time-since-surgery/a-79692583?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T14:14:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Search for Amelia Earhart's plane resumes after stormy weather",
+      "summary": "An expedition to a remote Pacific island hoping to uncover the American aviator's wreckage was on hold for three days.",
+      "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 13:47:07 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "France: Young voters blase about Glucksmann's Socialists",
+      "summary": "Raphael Glucksmann wants to lead France's Socialists to power without working with the left-populist Jean-Luc Melenchon, who is particularly popular with young voters. How can the center-left candidate win them over?",
+      "url": "https://www.dw.com/en/france-young-voters-blase-about-glucksmann-s-socialists/a-79684159?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T13:31:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+      "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 12:16:14 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+      "summary": "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
+      "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 12:07:31 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
+      "summary": "The Pope's first event since his lung cancer diagnosis and surgery saw him recite the traditional Angelus prayer from the balcony of the Apostolic Palace.",
+      "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 11:09:32 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Parisians wake up to protest damage and looted shops",
+      "summary": "Violence broke out across France on Saturday during the latest day of demonstrations against conditions in schools and the cost of living.",
+      "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 10:58:39 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Is Germany's eight-hour workday under threat?",
+      "summary": "Would you work 12 hours straight? The CDU/CSU and SPD are locked in a dispute over reforms to the Working Hours Act. Workplace flexibility, collective bargaining agreements and worker protection rules are at stake.",
+      "url": "https://www.dw.com/en/is-germany-s-eight-hour-workday-under-threat/a-79680984?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T10:28:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "France reports almost 2,400 arrests after riots, looting and arson during cost-of-living protests",
+      "summary": "Rioters torched public buildings and looted shops across France, destroying Limoges' historic town hall. The violence erupted during nationwide cost-of-living protests.",
+      "url": "https://www.dw.com/en/france-reports-almost-2-400-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T10:26:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Vietnam signs free trade deal with four European countries",
+      "summary": "Vietnam has signed a deal with four non-EU members that covers trade in goods and services, intellectual property rights, and sustainable development, among other areas.",
+      "url": "https://www.dw.com/en/vietnam-signs-free-trade-deal-with-four-european-countries/a-79691812?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T09:19:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "How reliant is Ukraine on the US-controlled Starlink internet service?",
+      "summary": "Kyiv keeps issuing warnings that the satellite internet system Starlink is being restricted in Ukraine. How dependent is the country on the system, and what would happen if it went down?",
+      "url": "https://www.dw.com/en/how-reliant-is-ukraine-on-the-us-controlled-starlink-internet-service/a-79689729?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T08:58:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Germany news: Police probe security incident at Leipzig/Halle airport",
+      "summary": "A fence breach at the Leipzig/Halle airport has triggered a major police operation. And, Christian Social Union leader Markus Söder calls for a \"firewall\" against leftists at a conservative youth conference. Follow DW.",
+      "url": "https://www.dw.com/en/germany-news-police-probe-security-incident-at-leipzig-halle-airport/live-79686913?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T08:12:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Populist Czech PM Babis goes empty-handed in Senate elections",
+      "summary": "Opposition parties still control the Czech Senate, in a major blow to Prime Minister Andrej Babis' and his governing coalition.",
+      "url": "https://www.dw.com/en/populist-czech-pm-babis-goes-empty-handed-in-senate-elections/a-79690934?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T07:03:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "India: CJP leader Abhijeet Dipke released after detention",
+      "summary": "Two other prominent CJP leaders are set to be released on Sunday. India has seen huge rallies calling on the country's top election official to step down over alleged manipulation of voter rolls.",
+      "url": "https://www.dw.com/en/india-cjp-leader-abhijeet-dipke-released-after-detention/a-79690933?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T06:29:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
+      "summary": "BBC News hears from users, dealers, prison and recovery workers as the country battles with a deadly new drug epidemic.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 05:04:31 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "India news: Kolkata stampede dampens Durga Puja festivities",
+      "summary": "Authorities have detained several people over a deadly stampede in India's eastern city of Kolkata, after the state vowed strict action. Meanwhile, 'Cockroach' leader Dipke is out of detention. DW has more.",
+      "url": "https://www.dw.com/en/india-news-kolkata-stampede-dampens-durga-puja-festivities/live-79685143?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T04:45:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Canada: Fire at military base in Alberta leaves four dead",
+      "summary": "Canadian Prime Minister Mark Carney said a \"serious incident\" sparked a major fire at a military base in Alberta.",
+      "url": "https://www.dw.com/en/canada-fire-at-military-base-in-alberta-leaves-four-dead/a-79690515?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T02:08:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sun, 18 Oct 2026 01:10:25 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "'No Kings' rallies push early voting ahead of US midterm elections",
+      "summary": "Organizers of the \"No Kings\" protests, known for their anti-Trump sentiment, are urging Americans to vote early in the November 3 midterm elections, as Republicans face tough races to retain control of Congress.",
+      "url": "https://www.dw.com/en/no-kings-rallies-push-early-voting-ahead-of-us-midterm-elections/a-79690502?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-18T00:51:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+      "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 22:09:50 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "How day of protests unfolded as disorder breaks out across France",
+      "summary": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
+      "url": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 21:33:17 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Anti-government protesters battle with police in Albania",
+      "summary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+      "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 20:53:00 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "At least 17 dead in crush at Hindu festival event in India",
+      "summary": "Many more have been injured at an event in the Indian city of Kolkata to mark a Hindu festival.",
+      "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 19:19:16 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Ilhan Omar: The US Democrat targeted by Donald Trump",
+      "summary": "Donald Trump has described her as \"garbage\" and a \"criminal\" who does nothing but \"bitch.\" Congress member Ilhan Omar has long been the target of angry verbal attacks from the US president. But why her?",
+      "url": "https://www.dw.com/en/ilhan-omar-the-us-democrat-targeted-by-donald-trump/a-79688445?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T19:17:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Romanian fighter jets shoot down 2 drones over Black Sea",
+      "summary": "Romanian Air Force F-16s shot down drones over Romanian territorial waters. Earlier this week, two chemical tankers were hit by drones near Romania's Black Sea coast.",
+      "url": "https://www.dw.com/en/romanian-fighter-jets-shoot-down-2-drones-over-black-sea/a-79689156?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T17:51:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Egypt's Ssisi says he'll defend Saudi Arabia, if asked",
+      "summary": "The Egyptian president said his country was ready to defend Saudi Arabia \"if requested.\" The comments come amid escalating Houthi attacks.",
+      "url": "https://www.dw.com/en/egypt-s-ssisi-says-he-ll-defend-saudi-arabia-if-asked/a-79689105?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T17:49:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "West Bank: Israeli settlers attack EU diplomats, French mayor",
+      "summary": "A group of Israeli settlers attacked vehicles carrying European diplomats in the West Bank, a day after an American photographer was beaten. Belgium and France have condemned the attack.",
+      "url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T16:29:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "How big is Russia's threat against Germany?",
+      "summary": "Experts believe that, so far, Germany has been ill-prepared — both militarily and mentally — for Russian provocations. They also warn against the idea that ending support for Ukraine would make Germany safer.",
+      "url": "https://www.dw.com/en/how-big-is-russia-s-threat-against-germany/a-79688426?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T15:23:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "China's influence in the gaming industry is growing",
+      "summary": "Home to more than 700 million gamers, China is the world's largest gaming market — but it's also one of the most tightly regulated. The effects reach far beyond China, impacting players around the world.",
+      "url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T14:49:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Pope discharged from hospital days after lung cancer surgery",
+      "summary": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
+      "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 13:51:36 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+      "summary": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing.",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 12:11:58 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "COP17: The world has a plan to save nature. Is it working?",
+      "summary": "The UN Secretary-General has called for an end to the “war on nature”. On Monday, governments gathering in Yerevan, Armenia, will have to confront a more practical question: are they doing enough to win the peace and put the world’s biodiversity goals back on track?",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168618",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Sat, 17 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Flour sacks turned flood barriers: Gaza faces another winter without safe shelter",
+      "summary": "Like many people in the war-ravaged Gaza Strip, Ahmed Al-Omari is preparing for another winter of bitter cold and rain that threatens to cause flooding as families struggle to survive in tattered tents and damaged buildings.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168619",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Sat, 17 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
+      "summary": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US president's waiver of new sanctions on Moscow a boost for Vladimir Putin.",
+      "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T11:34:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Rare pink diamond goes on display in France 100 years after amateur heist",
+      "summary": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
+      "url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 10:46:41 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
+      "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
+      "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 09:58:17 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Katie Zacharia leaving White House role less than five days into job",
+      "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+      "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 09:14:10 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+      "summary": "Unrest broke out in parts of France as students, trade unionists and Yellow Vest activists took to the streets to protest high prices and inequality. Police arrested over 1,000 people amid chaotic scenes.",
+      "url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-17T08:02:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
+      "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 03:11:10 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 02:33:09 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "The uncertain future of Canada's 30 rescued belugas",
+      "summary": "An international rescue operation for the last 30 captive whales in Canada made headlines. Then five of them died.",
+      "url": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 01:18:08 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
+      "summary": "Jantar Mantar, an 18th Century site almost synonymous with demonstrations in Delhi, has been denotified as a protest site.",
+      "url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 17 Oct 2026 00:41:58 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
+      "summary": "For 15 months, a high-security courtroom in Hamburg has been hearing the case of Christina Block, accused of ordering the abduction of her children.",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 23:07:18 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+      "summary": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
+      "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T19:42:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "What we learned from heated US midterm Senate debates",
+      "summary": "As the 3 November election approaches and both parties fight for control of Congress, some clear themes have emerged.",
+      "url": "https://www.bbc.co.uk/news/articles/cqly03y3zg7lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 19:09:37 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Toxic algorithms wouldn't let them go - now Australia wants an off switch",
+      "summary": "The Australian government hopes to protect social media users from being served content they don't want to see.",
+      "url": "https://www.bbc.co.uk/news/articles/cwr7y8er1n8vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 18:11:29 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?",
+      "summary": "Girls wearing headscarves have been turned away from schools in Azerbaijan, triggering unusual protests involving children. The government rules do not mention hijabs. Why are schools enforcing unwritten rules?",
+      "url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T17:46:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+      "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
+      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 16:00:30 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Watch: Will Ukraine get the support needed as tensions with US rise?",
+      "summary": "Zelensky thanked the \"real leaders\" ahead of a meeting with the EU in Brussels.",
+      "url": "https://www.bbc.co.uk/news/videos/cm2ke1v8e4geo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 15:45:10 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "The Bundestag has debated the genocide Germany carried out in Namibia a century ago. But will it spur progress on addressing colonial crimes?",
+      "summary": "Opposition parties have forced a debate in the Bundestag on the early-20th-century genocide Germany carried out in Namibia. Will this finally spur progress in addressing colonial crimes?",
+      "url": "https://www.dw.com/en/the-bundestag-has-debated-the-genocide-germany-carried-out-in-namibia-a-century-ago-but-will-it-spur-progress-on-addressing-colonial-crimes/a-79682388?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T14:42:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Albania: Students demand political change and resignation of Prime Minister Edi Rama",
+      "summary": "Empty lecture halls, burning buildings and demands for change: Albanian students are spearheading a protest movement that has become the biggest challenge to Prime Minister Edi Rama in years.",
+      "url": "https://www.dw.com/en/albania-students-demand-political-change-and-resignation-of-prime-minister-edi-rama/a-79682217?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T14:23:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "The EU wants an AI revolution. But on whose terms?",
+      "summary": "As the US and China race ahead, the European Union seeks to boost its economy with AI. Can it compete while protecting workers, safety and the climate?",
+      "url": "https://www.dw.com/en/the-eu-wants-an-ai-revolution-but-on-whose-terms/a-79673456?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T13:12:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Watch: Did Tesla really just unveil a flying car?",
+      "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
+      "url": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 12:32:31 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "As disasters mount, next UN climate summit faces a test of trust",
+      "summary": "Less than a month before the UN climate conference COP31 opens in Antalya, Türkiye, representatives of three successive summit presidencies gathered to address a pressing question: How can the world restore trust in climate action when the consequences of a warming planet are already being felt?",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168617",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Ukraine: Civilian casualty rates among ‘deadliest’ in years, as energy attacks intensify",
+      "summary": "Civilian casualties in Ukraine&nbsp;remain at record levels, with intensified Russian attacks in September continuing a pattern of harm in 2026 far exceeding previous years, UN human rights monitors in Ukraine said on Friday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168614",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "WHO scales up Ebola readiness in 22 countries across three continents",
+      "summary": "The World Health Organization (WHO) is strengthening Ebola preparedness amid conflict and displacement affecting millions of lives in a region that spans parts of Africa, Asia and Europe.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168613",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Security Council LIVE: Sudan’s war spreads as drones and hunger take a deadly toll",
+      "summary": "As drone strikes kill civilians from El Obeid to Blue Nile and famine risk spreads across Darfur and Kordofan, the Security Council meets on Sudan – the world’s largest hunger and displacement crisis. Ambassadors are expected to press yet again for a ceasefire, safe aid access and an end to the weapons flows fuelling the brutal conflict.&nbsp;",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168612",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Gaza: 340 children killed despite ceasefire agreement - UNICEF",
+      "summary": "A little over one year since a ceasefire agreement was announced between Hamas fighters and Israel, more than 340 children have been reported killed and hundreds more injured, the UN Children’s Fund (UNICEF) said on Friday.&nbsp;",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168611",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Guterres urges faster action and financing to stop biodiversity loss",
+      "summary": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168610",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Fri, 16 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Israeli settlers attack Palestinians in West Bank during olive harvest",
+      "summary": "Israeli settlers were seen attacking Palestinian farmers and setting fire to olive trees in the West Bank.",
+      "url": "https://www.bbc.co.uk/news/videos/cqn06zx2r15jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 11:40:41 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Italy cuts air traffic in half amid data transmission issue",
+      "summary": "Citing problems with the data transmission network, Italian authorities have drastically reduced the volume of flights in their airspace. The ENAV authority ruled out malicious activity and said flights remained safe.",
+      "url": "https://www.dw.com/en/italy-cuts-air-traffic-in-half-amid-data-transmission-issue/a-79678133?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T10:37:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Who was Eva Mamlok? Berlin square renamed after Jewish anti-fascist resistance fighter",
+      "summary": "She started taking action against Hitler as a teenager and never stopped until her death in a concentration camp. Berlin's Blücherplatz is now being renamed after her.",
+      "url": "https://www.dw.com/en/who-was-eva-mamlok-berlin-square-renamed-after-jewish-anti-fascist-resistance-fighter/a-79668919?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T09:16:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "EU promotes sovereign, trusted AI as it struggles to catch US and China",
+      "summary": "At an international AI summit in Dublin, EU leaders promoted trusted and independent artificial intelligence. Critics question whether the bloc can close the gap with the US and China while maintaining strict regulation.",
+      "url": "https://www.dw.com/en/eu-promotes-sovereign-trusted-ai-as-it-struggles-to-catch-us-and-china/a-79667770?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T09:07:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Formula One in Rwanda: Sportswashing claims vs. hopes for African legacy",
+      "summary": "Formula One will return to Africa for the first time since 1993. There is concern Rwanda are using it as another sportswashing opportunity, but there is also hope the event's legacy can impact wider African society.",
+      "url": "https://www.dw.com/en/formula-one-in-rwanda-sportswashing-claims-vs-hopes-for-african-legacy/a-79650744?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-16T08:37:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+      "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+      "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Fri, 16 Oct 2026 08:27:16 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Police raid the major pro-opposition Halk TV channel in Turkey",
+      "summary": "Turkish police raided the Istanbul headquarters of an important pro-opposition television station on Wednesdazy, the day that jailed Istanbul Mayor Ekrem Imamoglu was set to start his defense against corruption charges.",
+      "url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T16:48:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "EU summit to focus on China, Ukraine and bloc budget",
+      "summary": "EU leaders meeting in Brussels will examine measures to curb the bloc's huge trade deficit with China. But they will also be looking to further agreement on the next EU budget ahead of some major elections next year.",
+      "url": "https://www.dw.com/en/eu-summit-to-focus-on-china-ukraine-and-bloc-budget/a-79665338?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T14:37:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+      "summary": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace.",
+      "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T14:34:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Resignation of Bärbel Bas shines light on harsh era of German politics",
+      "summary": "German Labor Minister Bärbel Bas has stepped down, citing her need to grieve a loved one and leave behind the harsh realities of government. So how did German politics get so heated?",
+      "url": "https://www.dw.com/en/resignation-of-bärbel-bas-shines-light-on-harsh-era-of-german-politics/a-79671395?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T13:57:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "AI-assisted dying? Doris Dörrie's new film addresses prospect of care robots",
+      "summary": "While the world debates the dangers of artificial intelligence, filmmaker Doris Dörrie explores how humanoid robots could change the way we deal with aging, caregiving and how people choose to die.",
+      "url": "https://www.dw.com/en/ai-assisted-dying-doris-dörrie-s-new-film-addresses-prospect-of-care-robots/a-79659715?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T13:24:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Could your brain data be used against you? UN calls for limits on neurotechnology",
+      "summary": "Brain signals recorded by a gaming headset or a wellness gadget could one day be used as evidence against you in court, according to a new UN report which warns that neurotechnology is outpacing the laws meant to protect human rights.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168609",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
+      "summary": "Fewer than half of the national targets set to protect the world’s plants, animals and ecosystems are on track, the UN warns in a new report, days before countries gather in Yerevan, Armenia, for the COP17 biodiversity conference.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168607",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "AI, green energy and economic transitions risk leaving vulnerable communities behind, UN warns",
+      "summary": "Rapid transformations – from artificial intelligence and digital technologies to renewable energy and demographic shifts – are reshaping economies worldwide, creating new opportunities but also threatening to deepen socio-economic inequalities, a new UN report warned on Thursday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168604",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Afghanistan faces record hunger levels amid rampant rights violations",
+      "summary": "Acute malnutrition and hunger in Afghanistan have reached the highest levels ever recorded, with 15.9 million people facing acute food insecurity and conditions set to worsen in the coming months, according to a global hunger monitor report released on Thursday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168605",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Ukraine: Critical health supplies destroyed in ongoing Russian attacks",
+      "summary": "Ongoing and deadly Russian attacks across Ukraine are causing serious healthcare disruption, with more than $1.5 million-worth of medicines and supplies destroyed in four separate strikes on warehouses used by the UN there since July.&nbsp;",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168603",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "WHO urges vigilance after Kenya confirms second Ebola case",
+      "summary": "The World Health Organization (WHO) continues to support Kenya’s efforts to contain Ebola after a second person tested positive for the Bundibugyo virus, the UN agency’s representative in the country said on Thursday.&nbsp;",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168602",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Security Council LIVE: Deaths, demolitions spike in Gaza, West Bank",
+      "summary": "Amid a rise in lethal Israeli strikes, demolitions and violence in Gaza and the West Bank, the Security Council held an open debate on Thursday focusing on the current situation in the Occupied Palestinian Territory.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168599",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "WHO urges faster action to end lead exposure which kills 3.5 million annually",
+      "summary": "Countries must accelerate efforts to prevent lead exposure, which is estimated to cause more than 3.5 million deaths globally each year and affects hundreds of millions of children, the World Health Organization (WHO) said on Thursday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168600",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Thu, 15 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Thousands of German gamblers could sue for their money back",
+      "summary": "German gamblers may finally be able to beat the house, thanks to new court rulings in the EU and in Germany. The decisions could help gambling addicts — but the legal road might be difficult.",
+      "url": "https://www.dw.com/en/thousands-of-german-gamblers-could-sue-for-their-money-back/a-79667844?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T10:50:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Germany news: Train station alcohol ban comes into force",
+      "summary": "Consuming alcohol is no longer permitted at train stations in Germany, to improve the lot of travelers and staff alike. Coalition talks are restarting in Berlin, and an inmate is loose in Essen.",
+      "url": "https://www.dw.com/en/germany-news-train-station-alcohol-ban-comes-into-force/live-79666807?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T10:14:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Brazil's elections matter for the planet. This is why",
+      "summary": "Brazil is heading back to the polls, but the impact could be felt worldwide. With the Amazon vital to the health of the planet, the election could help shape its future.",
+      "url": "https://www.dw.com/en/brazil-s-elections-matter-for-the-planet-this-is-why/a-79659928?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T09:52:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Why Chinese tech brands are outpacing Western rivals from EVs to robot vacuums",
+      "summary": "From action cameras and smartphones to EVs and robot vacuums, Chinese brands are gaining ground worldwide, despite privacy and security concerns. What's driving their rise, and can European rivals keep up?",
+      "url": "https://www.dw.com/en/why-chinese-tech-brands-are-outpacing-western-rivals-from-evs-to-robot-vacuums/a-79646187?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T08:45:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Manchester City, the UAE and the UK's OM in a political tangle",
+      "summary": "Nearly 20 years after arriving in England, Manchester City's UAE owners could exit amid cheating charges. That would pose a challenge for a city — and prime minister — closely tied to Abu Dhabi.",
+      "url": "https://www.dw.com/en/manchester-city-the-uae-and-the-uk-s-om-in-a-political-tangle/a-79664729?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-15T08:13:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Nord Stream trial opens in Germany, defense seeks dismissal",
+      "summary": "Serhii Kuznietsov is accused of attacking civilian infrastructure in the 2022 sabotage of the Russian gas pipeline to Germany. His lawyers called Nord Stream a military target, and said their client is sworn to secrecy.",
+      "url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-14T18:00:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Germany's far-right AfD forges a pro-Russia alliance with the BSW",
+      "summary": "In Saxony-Anhalt, the AfD and BSW are joining forces to push for negotiations with Moscow. What is driving this rapprochement?",
+      "url": "https://www.dw.com/en/germany-s-far-right-afd-forges-a-pro-russia-alliance-with-the-bsw/a-79662413?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-14T15:13:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Albania: Fire at Education Ministry as students protest",
+      "summary": "Riot police deployed in the Albanian capital Tirana on the second day of student protests. The sudden outbreak seemed at least somewhat reminiscent of the widespread demos in France courting international attention.",
+      "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-14T14:56:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Trump's diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief",
+      "summary": "As the world's largest diesel exporter, the US benefits from high prices. At home, however, consumers are feeling the strain of rising living costs. Why Donald Trump's deal with Russia is unlikely to change that.",
+      "url": "https://www.dw.com/en/trump-s-diesel-deal-with-russia-is-unlikely-to-significantly-lower-global-fuel-prices-despite-expectations-of-rapid-relief/a-79659601?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-14T14:15:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Haiti sanctions renewed: Starving the gangs of bullets",
+      "summary": "Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing rape and other sexual assaults, kidnapping for ransom and extorting individuals and businesses.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168598",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Colombia: UN independent experts call for Ecopetrol to provide reparations to victims of armed conflict",
+      "summary": "UN independent experts welcomed on Wednesday&nbsp;a recent landmark corporate accountability ruling involving the Ecopetrol oil company by Colombia’s Special Jurisdiction for Peace, calling for reparations for victims.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168597",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "World News in Brief: Gaza braces for winter amid attacks, joint patrols in CAR, 90 cities commit to sustainable development",
+      "summary": "The UN and its partners are stepping up preparations in Gaza for the approaching cold and rainy season, even as attacks affecting civilians continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said on Wednesday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168596",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "DR Congo: Cholera cases spike amid fight against Ebola",
+      "summary": "The cholera epidemic continues to spread in the Democratic Republic of Congo (DRC), where more than 125,000 suspected cases and 3,644 suspected deaths were recorded between January 2025 and the end of September 2026, the World Health Organization (WHO) warned on Wednesday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168595",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Health workers tackle taboos over drinking with new AI tool",
+      "summary": "A new AI-powered hub for health professionals aims to help identify alcohol-related risks and launch discussions with patients, including the link between drinking and cancer, the World Health Organization (WHO) announced on Wednesday.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168594",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Security Council LIVE: Libya in the spotlight amid ‘encouraging progress’",
+      "summary": "Despite progress in the political process in Libya, institutional divisions, economic deterioration and security fragility continue to threaten stability, the UN envoy warned the Security Council on Wednesday, calling on Libyan leaders to overcome their differences to pave the way for national elections.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168592",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery",
+      "summary": "Intensifying fighting in Yemen has cut off life-saving assistance to 800,000 people as shifting frontlines, blocked roads and growing insecurity severely restrict access to the city of Taiz and other conflict zones, the UN World Food Programme (WFP) said on Wednesday.&nbsp;",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
+      "summary": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and the Occupied Palestinian Territory.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168590",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
+      "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
+      "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-14T11:40:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    }
+  ],
+  "sourceResults": [
+    {
+      "source": "PIB Hindi",
+      "ok": false,
+      "error": "Error: HTTP 403"
+    },
+    {
+      "source": "UN News",
+      "ok": true,
+      "count": 30
+    },
+    {
+      "source": "BBC World",
+      "ok": true,
+      "count": 29
+    },
+    {
+      "source": "DW News",
+      "ok": true,
+      "count": 136
+    }
+  ],
+  "editorialNotice": "समाचार अपने शब्दों में हिंदी में लिखें। पूर्ण एजेंसी लेख, फोटो या वीडियो तभी पुनर्प्रकाशित करें जब अधिकार स्पष्ट रूप से उपलब्ध हों। सभी रिकॉर्ड संपादकीय समीक्षा के लिए हैं।"
 }
