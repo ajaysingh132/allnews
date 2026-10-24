@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-23T23:07:18.138Z",
+  "generatedAt": "2026-10-24T04:31:11.683Z",
   "mode": "free RSS metadata and short descriptions only; no automatic publication",
   "items": [
+    {
+      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+      "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Sat, 24 Oct 2026 03:51:25 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Hitler's Eagle's Nest retreat catches fire, police say",
+      "summary": "Authorities have arrested a suspect as firemen try to put out the fire in Bavaria, near the Austrian border.",
+      "url": "https://www.dw.com/en/hitler-s-eagle-s-nest-retreat-catches-fire-police-say/a-79747820?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-10-24T02:40:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
     {
       "title": "France to deploy 70,000 police officers ahead of protests",
       "summary": "With new protests in France planned for this weekend, the authorities pledged to do everything in their power to prevent looting, violence and vandalism.",
@@ -58,7 +76,7 @@
     },
     {
       "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
+      "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "category": "विश्व",
@@ -162,15 +180,6 @@
       "source": "DW News",
       "category": "विश्व",
       "publishedAt": "2026-10-23T14:23:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "PSG v Lyon moved as Paris prepares for more protests",
-      "summary": "Paris St-Germain's Ligue 1 match against Lyon at the Parc des Princes is pushed back 24 hours as the French capital prepares for another weekend of protests.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "विश्व",
-      "publishedAt": "Fri, 23 Oct 2026 14:18:41 GMT",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -892,15 +901,6 @@
       "category": "विश्व",
       "publishedAt": "2026-10-18T08:58:00Z",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Populist Czech PM Babis goes empty-handed in Senate elections",
-      "summary": "Opposition parties still control the Czech Senate, in a major blow to Prime Minister Andrej Babis' and his governing coalition.",
-      "url": "https://www.dw.com/en/populist-czech-pm-babis-goes-empty-handed-in-senate-elections/a-79690934?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-10-18T07:03:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     }
   ],
   "sourceResults": [
@@ -922,7 +922,7 @@
     {
       "source": "DW News",
       "ok": true,
-      "count": 134
+      "count": 132
     }
   ],
   "editorialNotice": "समाचार अपने शब्दों में हिंदी में लिखें। पूर्ण एजेंसी लेख, फोटो या वीडियो तभी पुनर्प्रकाशित करें जब अधिकार स्पष्ट रूप से उपलब्ध हों। सभी रिकॉर्ड संपादकीय समीक्षा के लिए हैं।"
