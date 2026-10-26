@@ -1,14 +1,32 @@
 {
-  "generatedAt": "2026-10-25T22:31:47.411Z",
+  "generatedAt": "2026-10-26T04:41:00.886Z",
   "mode": "free RSS metadata and short descriptions only; no automatic publication",
   "items": [
     {
-      "title": "Brazil elections: Vote counting resumes after extension",
-      "summary": "Votes are being tallied after polling was extended two more hours. The result between leftist Lula and right-wing Bolsonaro is expected to be very close. DW has the latest.",
-      "url": "https://www.dw.com/en/brazil-elections-vote-counting-resumes-after-extension/live-79755630?maca=en-rss-en-all-1573-rdf",
+      "title": "Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro",
+      "summary": "Leftist President Lula has defeated right-wing challenger Flavio Bolsonaro to win another term in office. Bolsonaro has refused to concede and called for the results to be annulled. DW has the latest.",
+      "url": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
       "category": "विश्व",
-      "publishedAt": "2026-10-25T22:15:00Z",
+      "publishedAt": "2026-10-26T03:45:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Mon, 26 Oct 2026 03:05:22 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement",
+      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Mon, 26 Oct 2026 01:07:05 GMT",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -18,15 +36,6 @@
       "source": "BBC World",
       "category": "विश्व",
       "publishedAt": "Sun, 25 Oct 2026 22:11:13 GMT",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
-      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "विश्व",
-      "publishedAt": "Sun, 25 Oct 2026 22:06:26 GMT",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -54,15 +63,6 @@
       "source": "BBC World",
       "category": "विश्व",
       "publishedAt": "Sun, 25 Oct 2026 19:14:27 GMT",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
-      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "विश्व",
-      "publishedAt": "Sun, 25 Oct 2026 18:29:00 GMT",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -135,6 +135,15 @@
       "source": "DW News",
       "category": "विश्व",
       "publishedAt": "2026-10-25T12:05:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Why do planes keep circling before landing? The UN has a plan to fix it",
+      "summary": "Air traffic delays cost billions and turn journeys into ordeals. Some countries are already proving that better coordination saves thousands of flying hours and cuts emissions – and the UN’s aviation agency wants the rest of the world to follow.",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168666",
+      "source": "UN News",
+      "category": "अंतरराष्ट्रीय संस्था",
+      "publishedAt": "Sun, 25 Oct 2026 12:00:00 +0000",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -892,15 +901,6 @@
       "category": "अंतरराष्ट्रीय संस्था",
       "publishedAt": "Tue, 20 Oct 2026 12:00:00 +0000",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit",
-      "summary": "The UN warned on Tuesday against a premature withdrawal of its peacekeepers as the war in Sudan spills over into the Central African Republic (CAR).",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168630",
-      "source": "UN News",
-      "category": "अंतरराष्ट्रीय संस्था",
-      "publishedAt": "Tue, 20 Oct 2026 12:00:00 +0000",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     }
   ],
   "sourceResults": [
@@ -922,7 +922,7 @@
     {
       "source": "DW News",
       "ok": true,
-      "count": 130
+      "count": 129
     }
   ],
   "editorialNotice": "समाचार अपने शब्दों में हिंदी में लिखें। पूर्ण एजेंसी लेख, फोटो या वीडियो तभी पुनर्प्रकाशित करें जब अधिकार स्पष्ट रूप से उपलब्ध हों। सभी रिकॉर्ड संपादकीय समीक्षा के लिए हैं।"
