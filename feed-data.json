@@ -1,14 +1,77 @@
 {
-  "generatedAt": "2026-11-17T23:29:07.834Z",
+  "generatedAt": "2026-11-18T07:20:28.642Z",
   "mode": "free RSS metadata and short descriptions only; no automatic publication",
   "items": [
     {
-      "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
-      "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+      "title": "India news: Gandhi gives talk in New York, warns of 'looming crisis'",
+      "summary": "Indian opposition leader Rahul Gandhi’s US remarks on the economy drew a BJP counterattack. Meanwhile, the Quad leaders pushed back on moves to undermine regional peace,",
+      "url": "https://www.dw.com/en/india-news-gandhi-gives-talk-in-new-york-warns-of-looming-crisis/live-79976447?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-18T07:03:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+      "summary": "The US Senate's final outstanding midterm election race has been won by Mary Peltola. She unseats Republican Dan Sullivan after winning 50.1% of the vote.",
+      "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-18T06:27:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "APEC summit: What Trump, Xi and Putin want",
+      "summary": "Trump, Xi and Putin will hold their first trilateral meeting on the sidelines of APEC. With different priorities on trade, Ukraine, Iran and arms control, what does each leader hope to gain?",
+      "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-18T05:39:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Pakistani man gets 27 years for foiled plot to kill Trump, Biden",
+      "summary": "A Pakistani man with ties to Iran's government was sentenced to more than 27 years in prison for his role in plotting to kill US politicians, including President Donald Trump.",
+      "url": "https://www.dw.com/en/pakistani-man-gets-27-years-for-foiled-plot-to-kill-trump-biden/a-79976086?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-18T04:03:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Slovakia: Thousands protest against pro-Kremlin leader Robert Fico",
+      "summary": "Prime Minister Robert Fico has been under fire over his ties to Russia. The rallies were held on the anniversary of the 1989 Velvet Revolution that toppled communism in Czechoslovakia.",
+      "url": "https://www.dw.com/en/slovakia-thousands-protest-against-pro-kremlin-leader-robert-fico/a-79976078?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-18T03:06:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+      "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
       "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "category": "विश्व",
-      "publishedAt": "Tue, 17 Nov 2026 23:03:39 GMT",
+      "publishedAt": "Wed, 18 Nov 2026 01:18:18 GMT",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "Nvidia beats Q3 expectations in first report post-Jensen Huang",
+      "summary": "The AI chipmaker said it doubled its third-quarter revenue and confirmed that Jensen Huang would not be reinstated as CEO after a Chinese spy scandal.",
+      "url": "https://www.dw.com/en/nvidia-beats-q3-expectations-in-first-report-post-jensen-huang/a-79975683?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-18T00:34:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
+      "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+      "summary": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
+      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "विश्व",
+      "publishedAt": "Tue, 17 Nov 2026 23:02:12 GMT",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -21,8 +84,8 @@
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
-      "title": "Thomas Markle charged over child sex abuse material in Philippines",
-      "summary": "Markle is being held in prison in the US on a separate charge and has previously denied all of the allegations.",
+      "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+      "summary": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations.",
       "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "category": "विश्व",
@@ -246,15 +309,6 @@
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
-      "title": "APEC summit: What Trump, Xi and Putin want",
-      "summary": "Trump, Xi and Putin will hold their first trilateral meeting on the sidelines of APEC. With different priorities on trade, Ukraine, Iran and arms control, what does each leader hope to gain?",
-      "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-11-17T14:25:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
       "title": "Guinea jails 200 in wildcat gold mining crackdown",
       "summary": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali.",
       "url": "https://www.dw.com/en/guinea-jails-200-in-wildcat-gold-mining-crackdown/a-79968808?maca=en-rss-en-all-1573-rdf",
@@ -372,30 +426,12 @@
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
-      "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
-      "summary": "Zelenskyy said a strike on the Kerch bridge in Crimea was in response to continued Russian attacks targeting his country's infrastructure. Meanwhile, two bridges were hit in Russian attacks on Kyiv. DW has more.",
-      "url": "https://www.dw.com/en/ukraine-updates-russia-crimea-bridge-appears-destroyed-after-strike/live-79964446?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-11-17T11:13:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
       "title": "Could the Airbus' €3 billion loan row reignite a US-EU trade dispute?",
       "summary": "The US says a record €3 billion financing package for Airbus may conflict with a transatlantic aircraft-subsidy truce. EU officials insist the funding complies with market-based rules.",
       "url": "https://www.dw.com/en/could-the-airbus-€3-billion-loan-row-reignite-a-us-eu-trade-dispute/a-79943075?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
       "category": "विश्व",
       "publishedAt": "2026-11-17T11:00:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Turkish authorities raid opposition Sozcu news channel, appoint new management",
-      "summary": "Turkish authorities have raided the Istanbul offices of Sozcu TV, halting broadcasts, appointing a trustee and opening an investigation. This marks another crackdown on pro-opposition television channels in Turkey.",
-      "url": "https://www.dw.com/en/turkish-authorities-raid-opposition-sozcu-news-channel-appoint-new-management/a-79966297?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-11-17T10:24:00Z",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -426,6 +462,15 @@
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
+      "title": "APEC summit: Trump to travel to China for talks with Putin, Xi",
+      "summary": "US President Donald Trump is set to travel to the Chinese tech hub of Shenzhen for a much-anticipated meeting with Russian and Chinese counterparts. Follow live.",
+      "url": "https://www.dw.com/en/apec-summit-trump-to-travel-to-china-for-talks-with-putin-xi/live-79964719?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "category": "विश्व",
+      "publishedAt": "2026-11-17T07:34:00Z",
+      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
+    },
+    {
       "title": "Inside the Chinese 'AI wonderland' where Xi will host Trump",
       "summary": "The meeting will take place as Trump attends the Asia-Pacific Economic Co-operation (Apec) summit in the southern city of Shenzhen.",
       "url": "https://www.bbc.co.uk/news/videos/ckjwjl6ywgn9o?at_medium=RSS&at_campaign=rss",
@@ -441,15 +486,6 @@
       "source": "BBC World",
       "category": "विश्व",
       "publishedAt": "Tue, 17 Nov 2026 05:59:01 GMT",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-      "summary": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "विश्व",
-      "publishedAt": "Tue, 17 Nov 2026 02:38:08 GMT",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     },
     {
@@ -865,42 +901,6 @@
       "category": "अंतरराष्ट्रीय संस्था",
       "publishedAt": "Fri, 13 Nov 2026 12:00:00 +0000",
       "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "DR Congo Ebola outbreak: Unrest fuelled by armed groups holds back response",
-      "summary": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) continues to spread amid repeated and ongoing deadly attacks on civilians and frontline health workers by armed groups that are obstructing efforts to stop transmission, UN responders said on Friday.",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168797",
-      "source": "UN News",
-      "category": "अंतरराष्ट्रीय संस्था",
-      "publishedAt": "Fri, 13 Nov 2026 12:00:00 +0000",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Germany's Nmecha won't repeat controversial goal celebration",
-      "summary": "Germany head coach Jürgen Klopp has said midfielder Felix Nmecha will not repeat a goal celebration that sparked controversy over the past week. Germany are set to face Serbia and the Netherlands in the Nations League.",
-      "url": "https://www.dw.com/en/germany-s-nmecha-won-t-repeat-controversial-goal-celebration/a-79937994?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-11-13T11:04:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Germany news: Parliament agrees on debt-laden 2027 budget",
-      "summary": "The budget committee in the Bundestag worked into the night to sign off on next year's spending plans. These include levels of new debt only eclipsed once, at the height of the COVID pandemic. DW has more.",
-      "url": "https://www.dw.com/en/germany-news-parliament-agrees-on-debt-laden-2027-budget/live-79936897?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-11-13T08:52:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
-    },
-    {
-      "title": "Czechia braces for massive protest against public media reform plans",
-      "summary": "A fast-tracked bill to cut public media funding has sparked strikes, rallies and fears for the independence of public broadcasting in Czechia. A massive protest is planned for Prague on Sunday.",
-      "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-against-public-media-reform-plans/a-79933533?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "category": "विश्व",
-      "publishedAt": "2026-11-13T08:35:00Z",
-      "rightsNote": "शीर्षक/लिंक/सीमित विवरण; मूल लेख का पूर्ण पाठ या फोटो इस फ़ीड से पुनर्प्रकाशित न करें।"
     }
   ],
   "sourceResults": [
@@ -922,7 +922,7 @@
     {
       "source": "DW News",
       "ok": true,
-      "count": 134
+      "count": 133
     }
   ],
   "editorialNotice": "समाचार अपने शब्दों में हिंदी में लिखें। पूर्ण एजेंसी लेख, फोटो या वीडियो तभी पुनर्प्रकाशित करें जब अधिकार स्पष्ट रूप से उपलब्ध हों। सभी रिकॉर्ड संपादकीय समीक्षा के लिए हैं।"
